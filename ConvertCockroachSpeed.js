@@ -2,7 +2,7 @@
 
 
 function cockroachSpeed(s) {
-  return s * 27.78 | 0
+  return s * 27.7777777778 | 0
 }
 
 cockroachSpeed()
