@@ -20,6 +20,8 @@ for (let i = 0; i < string.length; i++){ // loop through the uncorrected string
 }
 correct('51NGAP0RE')
 
+// this kata allowed me to practice using the .replace() method and also learn more about using regular expressions 
+
 // Futher Optimized solution 
 
  function correct(string) {
