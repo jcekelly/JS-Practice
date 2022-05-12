@@ -1,0 +1,10 @@
+
+// In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+
+
+function filter_list(l) {
+  return l.filter(value => typeof(value) === 'number') // using the filter method to itirate over the array create a new array of all the values with the type 'number'
+}
+
+
+filter_list([1,2,'aasf','1','123',123])
